@@ -1,1 +1,1 @@
-This directory will contain my React projects as am looking forward to become a better MERN stack developer.
+This directory will contain my React Basic projects as am looking forward to become a better MERN stack developer.
