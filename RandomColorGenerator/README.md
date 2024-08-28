@@ -22,7 +22,7 @@ To get started with the Random Color Generator, follow these steps:
    ```bash
    cd RandomColorGenerator
    ```
-3. Open the `index.html` file in your web browser.
+3. run ```npm run dev, copy the link and paste in chrome then press Enter button.
 
 ## 🎉 Usage
 
