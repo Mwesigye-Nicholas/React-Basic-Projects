@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaStar } from "react-icons/fa";
+import PropTypes from "prop-types";
 import "./styles.css";
 
 function StarRatings({ stars = 5 }) {
@@ -34,6 +35,9 @@ function StarRatings({ stars = 5 }) {
       })}
     </div>
   );
+}
+StarRatings.propTypes = {
+  stars: PropTypes.number.isRequired,
 }
 
 export default StarRatings;
