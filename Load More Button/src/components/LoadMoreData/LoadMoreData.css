@@ -1,0 +1,35 @@
+.load-more-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.product {
+  padding: 20px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.product img {
+  width: 200px;
+  height: 200px;
+}
+.button-container {
+    margin: 0 auto;
+    
+}
+.button-container button{
+    padding: 1rem;
+    border-radius: 15px;
+    font-size: 1rem;
+    transition: background-color .5s ease-in-out;
+    
+}
+.button-container button:hover{
+    background-color: aqua;
+}
